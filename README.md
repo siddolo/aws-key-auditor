@@ -1,10 +1,17 @@
 # aws-key-auditor
 
-##### Audit a compromised AWS account
+##### Audit a compromised AWS key credentials
 
 This simple script tests passed credentials against some read-only awscli commands.
 
 If you have cowsay installed and you don't want cows, set environment variable USE_COWSAY to "no" :)
+
+### Usage:
+```
+Usage ./aws_key_auditor.sh <AWS KEY> <AWS SECRET> <AWS REGION> [ACCOUNT ID]
+Example: ./aws_key_auditor.sh AKIAIKAAAAAAAAAAAAAAQ 9aHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAb eu-west-1
+Example: ./aws_key_auditor.sh AKIAIKAAAAAAAAAAAAAAQ 9aHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAb eu-west-1 123456789012
+```
 
 ### Example:
 ```
