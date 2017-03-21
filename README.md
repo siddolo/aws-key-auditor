@@ -29,6 +29,7 @@ Example: ./aws_key_auditor.sh AKIAIKAAAAAAAAAAAAAAQ 9aHAAAAAAAAAAAAAAAAAAAAAAAAA
     "Arn": "arn:aws:iam::77********5:user/m.rossi@foobar.com"
 }
 [...]
+ _____________________________
 < ec2 describe-route-tables:  >
  -----------------------------
         \   ^__^
